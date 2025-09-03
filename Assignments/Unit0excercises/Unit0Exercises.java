@@ -7,7 +7,13 @@ public class Unit0Exercises {
         System.out.println();
 
         // testing sleepIn() method
-        System.out.println(obj.sleepIn(true, false)); // output: true
+        System.out.println(obj.sleepIn(false, false));
+        System.out.println(obj.sleepIn(true, false));
+        System.out.println(obj.sleepIn(false, true));
+        System.out.println(obj.sleepIn(true, true));
+        
+        
+        // output: true
         // sleepIn(true, false) -> true
         // sleepIn(false, true) -> true
 
